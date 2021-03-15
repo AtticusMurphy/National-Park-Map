@@ -47,7 +47,7 @@ function draw() {
   if(dist(athens.x,athens.y,mouseX,mouseY)< (zoom * 10)/2){
 
     
-    textSize(32);
+    textSize(20);
     
     noFill();
     
@@ -78,7 +78,7 @@ function draw() {
     ellipse(pos.x, pos.y, size, size);
     
     if (dist(pos.x, pos.y, mouseX, mouseY) < size){
-      textSize(32);
+      textSize(20);
       text(place, pos.x, pos.y);
     }
   }
